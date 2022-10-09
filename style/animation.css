@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.34);
+} 
+.navbar-nav .nav-item .nav-link{
+    margin-left: 15px ;
+    color: #fff !important;
+    font-weight: 500;
+    transition: all .3s ;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: red !important;
+}
+.carousel-inner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.carousel-inner .carousel-item{
+    width: 100%;
+    height: 100%;
+
+}
+.carousel-inner .carousel-item  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-inner .item::before{
+    content:'';
+    position: absolute;
+   width: 100%;
+   height: 100vh;
+    background-color: black;
+    opacity: 0.3;
+}
+.carousel-caption {
+    width: 500px  ;
+    height: 100vh;
+    position: absolute;
+    left: 10%!important;
+    top: 45%;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    
+}
+.carousel-caption h1{
+    font-size: 60px;
+}
+.line{
+    width: 150px;
+    height: 2px;
+    margin: auto;
+    background-color: red ;
+  
+}
+.text-1{
+    height: 300px;
+    text-justify: inter-word ;
+    overflow: hidden;
+    text-align: justify !important;
+
+}
+.button_1{
+    width: 110px;
+    height: 45px;
+    background:none;
+    color: #fff;
+    border: 1px solid #fff !important;
+    margin-top: 20px !important;
+    transition: .3s;
+
+}
+.button_1:hover{
+    background-color: #fff;
+    color: red;
+}
+
+.img_1 .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid ;
+    position: relative;
+    transition: all 0.3s;
+}
+.icon i{
+    font-size: 30px;
+     color: black;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     color: red;
+     transform: translate(-50%,-50%);
+     transition: all 0.3s;
+}
+.img_1:hover .icon{
+    transform: rotate(360deg);
+    background-color: red;
+}
+.img_1:hover .icon i{
+   color: #fff;
+}
+.text_2 h4{
+    font-weight:500;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+ 
+}
+.text_2 p{
+    color: rgba(0, 0, 0, 0.649);
+    text-align: justify !important;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+}
+.text_3 h4{
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px ;
+}
+.line_1{
+    width: 100px;
+    height: 2px;
+    background-color: red;
+}
+.text_3{
+    width: 100%;
+    height: 300px ;
+    text-align: justify !important;
+}
+.bar button{
+    margin-left: 20px;
+    padding: 15px 30px;
+    box-shadow: 0px 0px 5px 1px   rgba(0, 0, 0, 0.116) !important;
+}
+.bar i{
+    font-size: 40px ;
+    color: rgba(84, 80, 80, 0.819);
+}
+.content_4{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.094);
+}
+.img_4{
+    width: 100%;
+    height: 250px;
+}
+.img_4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.img_4 .img{
+   width: 100%;
+   height: 100%;
+   position: relative;
+}
+.img .black{
+    content: ' ';
+    margin-left:1px ;
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.792);
+    bottom:0;
+    opacity: 0;
+    transition: all .3s;
+}
+.black i{
+    margin-top: 10px ;
+    font-size: 20px;
+    background-color: red;
+    color: #fff;
+    padding: 2px 5px ;
+  
+}
+.img:hover .black{
+    opacity: 1;
+}
+.button{
+    margin-left: 20px ;
+    border: 1px solid #000 !important;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+  
+  }
+.box_4{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    box-shadow: 0px 0px 1px 1px  rgba(0, 0, 0, 0.238);
+
+}
+.circle {
+    width: 40%;
+    height: 23%;
+    border-radius: 50%;
+    position: absolute;
+    left: 33%;
+    top: -10%;
+    background-color: rgba(215, 215, 215, 0.397);
+}
+.box_4::before{
+    position: absolute;
+    width: 100%;
+    height: 30% ;
+    content: ' ';
+    background-color: rgba(215, 215, 215, 0.397);
+}
+.circle-red{
+    width: 90%;
+    height: 90%;
+    background-color: red;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 4%;
+    color: #fff;
+    line-height: 0px;
+    font-size: 15px ;
+}
+.circle-red h4{
+    font-weight: bold ;
+    padding: 10px ;
+}
+.box_4:hover .circle{
+    box-shadow: 0px 0px 2px 2px  rgba(0, 0, 0, 0.229);
+}
+.box_4:hover{
+    box-shadow: 0px 0px 2px 2px  rgba(0, 0, 0, 0.229);
+}
+.text-5{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    left: 15%;
+}
+.text-5 h3{
+    color:#000;
+    margin-top: 55% ;
+    font-family:Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+}
+.text-5 h5{
+    line-height: 45px ;
+}
+.text-5 button{
+     display: block;
+     margin:auto;
+     border: 2px solid red;
+     padding: 5px 15px ;
+     background: none;
+     color: red;
+     transition: all .3s;
+}
+.text-5 button:hover{
+    background-color: red;
+    color: #fff;
+}
+.card-body i{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.502);
+    margin-left: 10px ;
+    margin-top: 10px ;
+}
+.card-body i:hover{
+    color: blue;
+    transform: scale(1.08);
+}
+.card:hover{
+    box-shadow: 1px 1px 20px  rgba(0, 0, 0, 0.229);
+}
+.img_6{
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.img_6::before{
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity:0.6;
+}
+.item_1{
+    width: 100%;
+    height: 100%;
+}
+.item_1 .circle_3{
+    width:100px;
+height: 100px;
+border-radius: 50%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+margin: auto;
+margin-top: 10%;
+}
+.caption{
+    width: 80%;
+    height: 10%;
+}
+.content_1{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(212, 204, 204) !important;
+}
+.text-6{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px ;
+    border-right: 1px solid rgb(104, 103, 103);
+}
+.text-6 h4,h5{
+    font-weight: bold;
+    margin-top: 10px ;
+
+}
+.text-4{
+    width: 100%;
+    height: 200px ;
+    text-align: justify;
+}
+.text-4 p{
+     color: rgba(0, 0, 0, 0.561);
+     font-weight: bold ;
+}
+.text-4 h5:hover{
+    color: red;
+}
+.contact-form {
+    width: 100%;
+    height: 300x;
+    
+}
+.contact-form h6{
+    margin-top: 30px;
+}
+.contact-form strong{
+    margin-left: 20px  ;
+
+}
+.contact-form h6 a:hover{
+    color: red;
+}
+#main-contact-form button{
+    width: 100% ;
+    height: 50px;
+    border: 2px solid red;
+    margin-top: 20px;
+    color: red;
+    text-align: center;
+    background:none;
+    transition: all.4s;
+}
+#main-contact-form button:hover{
+      background-color: red;
+      color: #fff;
+}
+
